@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bibliomancy - Biblical Divination & Scripture Oracle</title>
+
+<!-- Enhanced Meta Tags -->
+<meta name="Rating" content="general" />
+<meta name="DESCRIPTION" content="Practice Bibliomancy with random Bible verses for divine guidance. Ask your question and receive a sacred scripture passage as God's answer. Ancient biblical divination method for spiritual seekers." />
+<meta name="KEYWORDS" content="Bibliomancy, Bible divination, random Bible verses, biblical oracle, scripture divination, biblical guidance, random scripture, Bible oracle, Christian divination, sacred text divination" />
+<meta name="author" content="Radius.Center" />
+<meta name="distribution" content="Global" />
+<meta name="robots" content="FOLLOW,INDEX" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://radius.center/bibliomancy/bibliomancy.html">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Bibliomancy - Biblical Divination & Scripture Oracle">
+<meta property="og:description" content="Receive divine guidance through random Bible verses and biblical divination">
+<meta property="og:url" content="https://radius.center/bibliomancy/bibliomancy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Radius.Center">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Bibliomancy - Biblical Scripture Oracle">
+<meta name="twitter:description" content="Ancient biblical divination with random scripture verses for divine guidance">
+
+<!-- Language and Hreflang -->
+<meta name="language" content="en">
+<link rel="alternate" hreflang="en" href="https://radius.center/bibliomancy/bibliomancy.html">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Bibliomancy - Biblical Divination Tool",
+  "description": "Biblical divination application using random scripture verses for divine guidance and spiritual direction",
+  "url": "https://radius.center/bibliomancy/bibliomancy.html",
+  "applicationCategory": "Entertainment",
+  "operatingSystem": "Web Browser",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "Radius.Center",
+    "url": "https://radius.center"
+  },
+  "keywords": ["Bibliomancy", "Bible divination", "random Bible verses", "biblical oracle", "scripture divination"],
+  "genre": ["Religious Studies", "Christian Spirituality", "Biblical Divination"]
+}
+</script>
+
+<link rel="SHORTCUT ICON" href="favicon.png" />
+<script type="text/javascript" src="analytics.js"></script>
+</head>
+<body>
+
+<style type="text/css">
+/* Parchment Modal Styles */
+.parchment-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.parchment-scroll {
+    position: relative;
+    width: 80%;
+    max-width: 700px;
+    min-height: 500px;
+    background: #f4e4bc;
+    background-image: url(parchment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid #8B4513;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 
+        0 0 50px rgba(0, 0, 0, 0.8),
+        inset 0 0 30px rgba(139, 69, 19, 0.2);
+    text-align: center;
+}
+
+.parchment-content {
+    color: #2c1810;
+    font-family: "Constantia", "Gentium Basic", "Times New Roman", serif;
+}
+
+.parchment-verse {
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px rgba(139, 69, 19, 0.3);
+    animation: burn 2.5s linear infinite alternate;
+    -webkit-animation: burn 2.5s linear infinite alternate;
+    -moz-animation: burn 2.5s linear infinite alternate;
+    -ms-animation: burn 2.5s linear infinite alternate;
+}
+
+.parchment-verse a {
+    color: #654321;
+    text-decoration: underline;
+}
+
+.parchment-verse a:hover {
+    color: #8B4513;
+}
+
+.fire {
+	animation: burn 2.5s linear infinite alternate;
+	-webkit-animation: burn 2.5s linear infinite alternate;
+	-moz-animation: burn 2.5s linear infinite alternate;
+	-ms-animation: burn 2.5s linear infinite alternate;
+}
+@keyframes burn {
+	from { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .4em #ffae34, .2em -.3em .3em #ec760c, -.2em -.4em .4em #cd4606, .1em -.5em .7em #973716, .1em -.7em .7em #451b0e; }
+	45%  { text-shadow: .1em -.2em .5em #fefcc9, .15em 0 .4em #feec85, -.1em -.25em .5em #ffae34, .15em -.45em .5em #ec760c, -.1em -.5em .6em #cd4606, 0 -.8em .6em #973716, .2em -1em .8em #451b0e; }
+	70%  { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .6em #ffae34, .2em -.3em .4em #ec760c, -.2em -.4em .7em #cd4606, .1em -.5em .7em #973716, .1em -.7em .9em #451b0e; }
+	to   { text-shadow: -.1em -.2em .6em #fefcc9, -.15em 0 .6em #feec85, .1em -.25em .6em #ffae34, -.15em -.45em .5em #ec760c, .1em -.5em .6em #cd4606, 0 -.8em .6em #973716, -.2em -1em .8em #451b0e; }
+}
+@-webkit-keyframes burn {
+	from { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .4em #ffae34, .2em -.3em .3em #ec760c, -.2em -.4em .4em #cd4606, .1em -.5em .7em #973716, .1em -.7em .7em #451b0e; }
+	45%  { text-shadow: .1em -.2em .5em #fefcc9, .15em 0 .4em #feec85, -.1em -.25em .5em #ffae34, .15em -.45em .5em #ec760c, -.1em -.5em .6em #cd4606, 0 -.8em .6em #973716, .2em -1em .8em #451b0e; }
+	70%  { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .6em #ffae34, .2em -.3em .4em #ec760c, -.2em -.4em .7em #cd4606, .1em -.5em .7em #973716, .1em -.7em .9em #451b0e; }
+	to   { text-shadow: -.1em -.2em .6em #fefcc9, -.15em 0 .6em #feec85, .1em -.25em .6em #ffae34, -.15em -.45em .5em #ec760c, .1em -.5em .6em #cd4606, 0 -.8em .6em #973716, -.2em -1em .8em #451b0e; }
+}
+@-moz-keyframes burn {
+	from { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .4em #ffae34, .2em -.3em .3em #ec760c, -.2em -.4em .4em #cd4606, .1em -.5em .7em #973716, .1em -.7em .7em #451b0e; }
+	45%  { text-shadow: .1em -.2em .5em #fefcc9, .15em 0 .4em #feec85, -.1em -.25em .5em #ffae34, .15em -.45em .5em #ec760c, -.1em -.5em .6em #cd4606, 0 -.8em .6em #973716, .2em -1em .8em #451b0e; }
+	70%  { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .6em #ffae34, .2em -.3em .4em #ec760c, -.2em -.4em .7em #cd4606, .1em -.5em .7em #973716, .1em -.7em .9em #451b0e; }
+	to   { text-shadow: -.1em -.2em .6em #fefcc9, -.15em 0 .6em #feec85, .1em -.25em .6em #ffae34, -.15em -.45em .5em #ec760c, .1em -.5em .6em #cd4606, 0 -.8em .6em #973716, -.2em -1em .8em #451b0e; }
+}
+@-ms-keyframes burn {
+	from { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .4em #ffae34, .2em -.3em .3em #ec760c, -.2em -.4em .4em #cd4606, .1em -.5em .7em #973716, .1em -.7em .7em #451b0e; }
+	45%  { text-shadow: .1em -.2em .5em #fefcc9, .15em 0 .4em #feec85, -.1em -.25em .5em #ffae34, .15em -.45em .5em #ec760c, -.1em -.5em .6em #cd4606, 0 -.8em .6em #973716, .2em -1em .8em #451b0e; }
+	70%  { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .6em #ffae34, .2em -.3em .4em #ec760c, -.2em -.4em .7em #cd4606, .1em -.5em .7em #973716, .1em -.7em .9em #451b0e; }
+	to   { text-shadow: -.1em -.2em .6em #fefcc9, -.15em 0 .6em #feec85, .1em -.25em .6em #ffae34, -.15em -.45em .5em #ec760c, .1em -.5em .6em #cd4606, 0 -.8em .6em #973716, -.2em -1em .8em #451b0e; }
+}
+.hidden-title {
+    display: none;
+}
+.center {
+	position: absolute;
+	margin: auto;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family: Constantia, "Gentium Basic", "Times New Roman", Verdana, none;
+	font-stretch: ultra-condensed;
+	font-size: 600%;
+	font-size: 12vmin;
+	font-weight: 900;
+	font-style: none;
+	white-space: wrap;
+	color: white; 
+	text-decoration: none;
+	font-size: 40px;
+	color: #FFFFFF;
+	text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+	font-family: Constantia, "Gentium Basic", "Times New Roman", Verdana, none;
+	font-size: 40px;
+	color: #FFFFFF;
+	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+    word-wrap: normal;
+}
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+body {
+	background-color: #000000;
+	background-image: url(Tanakh.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 100%;
+	overflow-x: hidden;
+	word-wrap: normal;
+}
+#reloadBtn{
+    display:inline-block;
+    padding:12px 18px;
+    background:#c00;
+    color:#fff;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    border-radius:8px;
+    border:2px solid #900;
+    cursor:pointer;
+    box-shadow:0 5px 0 #900,0 7px 5px rgba(0,0,0,.4);
+    transition:transform .08s ease,box-shadow .08s ease;
+    user-select:none;
+}
+#reloadBtn:active{
+    transform:translateY(3px);
+    box-shadow:0 2px 0 #900,0 3px 3px rgba(0,0,0,.4);
+}
+#helpBtn{
+    position:fixed;
+    top:20px;
+    right:20px;
+    display:inline-block;
+    padding:6px 9px;
+    background:#c00;
+    color:#fff;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+    border-radius:4px;
+    border:1px solid #900;
+    cursor:pointer;
+    box-shadow:0 2.5px 0 #900,0 3.5px 2.5px rgba(0,0,0,.4);
+    transition:transform .08s ease,box-shadow .08s ease;
+    user-select:none;
+    text-decoration:none;
+    z-index:1001;
+}
+#helpBtn:active{
+    transform:translateY(1.5px);
+    box-shadow:0 1px 0 #900,0 1.5px 1.5px rgba(0,0,0,.4);
+}
+</style>
+<!-- background is of Numbers 16-->
+<div class="hidden-title"><center><h1>Bibliomancy</h1></center></div>
+
+<!-- Help Button -->
+<a id="helpBtn" href="help.html">?</a>
+
+<!-- Parchment Modal -->
+<div class="parchment-modal">
+    <div class="parchment-scroll">
+        <div class="parchment-content">
+            <div class="parchment-verse" id="verse-container">
+                <!-- Verse will be loaded here by JavaScript -->
+            </div>
+            <span id="reloadBtn" onclick="location.reload()">RELOAD</span>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="bibliomancy.js"></script>
+</body>
+</html>
